@@ -42,7 +42,9 @@ When editing
 - phone: +393458591948
 - location: Milan, Italy
 
-## Summary (available bullets)
+## Summary
+
+Available bullets:
 
 - [leadership, pm] I've managed a team of 10 people, acting as team leader and project manager for high profile projects with prominent clients (Mastercard, Leonardo s.p.a., BPER). I am responsible for setting design standards, ensuring quality from concept to launch and aligning user experience with business goals.
 - [training, ai-training] I have held numerous training courses about design, communication and Generative AI to in-person groups ranging from 5 to 80 people.
@@ -56,6 +58,7 @@ When editing
 - period: 03/2026 – present
 - duration: ongoing
 - location: Milan, Italy
+- website: matchadating.it
 
 Available bullets:
 
@@ -73,6 +76,7 @@ Tools / Skills: Figma, User Centered Design, Design Thinking, Product Strategy, 
 
 Available bullets:
 
+- [presales, leadership, b2b] Business development for the Artificial Intelligence line across the entire Group, a role I took on following the acquisition of BID Company by DGS.
 - [presales, ai-training, b2b] I support the sales team in presales activities, bringing technical solidity to the design of AI solutions and products, from opportunity scoping to solution proposal.
 - [presales, b2b] Contributed to closing contracts worth ~500k EUR/year for clients such as Mastercard, Leonardo, Viatris, Cassa Depositi e Prestiti, Videlio, Coima and Dulevo.
 - [training, ai-training] Creation and delivery of training courses on generative AI, including hands-on workshops and enablement programs for corporate clients within Generative AI Hub initiatives.
@@ -107,6 +111,7 @@ Available bullets:
 
 - [design, dev] I designed and developed web platforms and mobile apps.
 - [design, dev] The workflow involved understanding the requirements, estimating the effort for each task, creating a mockup, prototyping an MVP and implementing the final product.
+- [design, research] I developed new product ideas in collaboration with the R&D team and company management.
 
 Tools / Skills: Figma, React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, Git, Github Actions, AWS, Vercel, REST APIs, Excel
 
@@ -152,7 +157,7 @@ Tools / Skills: MATLAB, Python, Pytorch, Java, Software Design
 - doi: 10.3233/FAIA251113
 - tags: [research, ai-training]
 
-## Other projects
+## Personal projects
 
 ### Interactive data visualizations and statistical analysis about diversity in fictional characters across comics, tv series and movies
 
@@ -184,7 +189,8 @@ Tools / Skills: MATLAB, Python, Pytorch, Java, Software Design
 - [dev] React, Angular, Flutter, Typescript, Javascript, Tailwind CSS, SASS, REST APIs, AWS, Vercel, Python, PostgreSQL, Github
 - [pm] Scrum, Waterfall, Confluence, Jira, Budgeting, Change Management
 - [ai-training] Generative AI workflows & agents (Google Stitch, Claude Cowork, n8n, Gamma, ChatGPT, Copilot), LLMs, prompt engineering
-- [leadership] Coaching, Mentoring, Conflict Management
+- [leadership] Coaching, Mentoring, Conflict Management, Leadership (Multidisciplinary Teams), Corporate Communication
+- [training] Training & Workshops, Digital Course Design
 
 ## Languages
 
