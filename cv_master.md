@@ -24,6 +24,15 @@ Structure rules
 - There is no Inbox section: Jacopo requests changes directly via chat.
 - Each experience has: metadata, "Available bullets:" (tagged), and a "Tools / Skills:" line.
 
+Generation rules (layout and style)
+- Summary: never a wall of text. If it gets long, split it into short paragraphs so it stays pleasant to read for a human.
+- Colours: before generating a CV, always ask Jacopo for three colours:
+  1. base colour, for body text;
+  2. primary colour, for section titles, experience titles, personal project names, publication names, and graphic elements such as rules and separators;
+  3. secondary colour, for subtitles and the names of the companies he worked for.
+- Output location: by default, create every generated file (CVs, drafts, exports) inside the project's `./output` folder. That folder is git-ignored.
+- Respect the Gestalt law of proximity: a heading must sit closer to the block it introduces than to the preceding one, and related items must be grouped with tighter spacing than unrelated ones.
+
 Tags
 - Claude chooses the tags autonomously, based on what fits best. Current pool: design, dev, pm, leadership, b2b, training, ai-training, presales, research, soft. New tags can be added when needed.
 

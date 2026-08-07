@@ -1,0 +1,8 @@
+# Generated files
+output/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
