@@ -15,6 +15,8 @@ Language and style
 - Quantify where possible (team size, budget, users, contract value, audience size).
 
 Structure rules
+- Section order in every generated CV is fixed: Summary, Experience, Education, Publications, Personal projects, Skills, Languages.
+- Right after the Languages section, always add the availability line (see "Availability" below).
 - Experiences are listed in reverse chronological order: the most recent is always first.
 - Experiences titles are always in the form "Role — Company"
 - Ongoing positions: `period: MM/YYYY – present` and `duration: ongoing`. Ended positions: fixed period and rounded duration (e.g. "2 years").
@@ -197,3 +199,7 @@ Tools / Skills: MATLAB, Python, Pytorch, Java, Software Design
 - Italian: Native
 - English: C2
 - Japanese: N5
+
+## Availability
+
+- Available for business travel and relocation.
