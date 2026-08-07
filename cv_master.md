@@ -1,4 +1,4 @@
-# CV Master — Jacopo Marcolini
+# CV Master - Jacopo Marcolini
 
 > Single source of truth for generating CVs.
 > Conventions: `##` sections, `###` subsections, `key: value` for metadata, `[...]` for tags at the start of bullets.
@@ -18,13 +18,18 @@ Structure rules
 - Section order in every generated CV is fixed: Summary, Experience, Education, Publications, Personal projects, Skills, Languages.
 - Right after the Languages section, always add the availability line (see "Availability" below).
 - Experiences are listed in reverse chronological order: the most recent is always first.
-- Experiences titles are always in the form "Role — Company"
+- Experiences titles are always in the form "Role - Company"
 - Ongoing positions: `period: MM/YYYY – present` and `duration: ongoing`. Ended positions: fixed period and rounded duration (e.g. "2 years").
 - Training/instructor activities are NOT a separate section: they live as bullets inside the experience where they happened.
 - There is no Inbox section: Jacopo requests changes directly via chat.
-- Each experience has: metadata, "Available bullets:" (tagged), and a "Tools / Skills:" line.
+- Each experience has: metadata and "Available bullets:" (tagged).
+- Skills and tools are NOT repeated inside experiences, education or projects: they all live in the single "Main Tools / Skills (full pool)" section, grouped by tag.
 
 Generation rules (layout and style)
+- Voice: in the generated CV use an impersonal style (no "I ..."), even though the master pool is written in first person. Rewrite the bullets accordingly.
+- Client names: always frame them as examples, with wording like "clients such as ..." or "including ...", never as an exhaustive list.
+- Separators: use `|` as the inline separator, never `•`.
+- Never use the em dash. Use commas, brackets, colons or semicolons depending on the context; a line break or formatting can also replace it.
 - Summary: never a wall of text. If it gets long, split it into short paragraphs so it stays pleasant to read for a human.
 - Colours: before generating a CV, always ask Jacopo for three colours:
   1. base colour, for body text;
@@ -38,7 +43,7 @@ Tags
 
 When editing
 - Enrich raw notes into polished tagged bullets; ask Jacopo only when key information is missing (dates, numbers, scope).
-- Update "Main Tools / Skills (full pool)" if a new experience introduces relevant tools not yet listed.
+- Add any new tool or skill to "Main Tools / Skills (full pool)" only, in the right tag group.
 - Update this context if a new rule or important information is found. 
 -->
 
@@ -57,14 +62,14 @@ When editing
 
 Available bullets:
 
-- [leadership, pm] I've managed a team of 10 people, acting as team leader and project manager for high profile projects with prominent clients (Mastercard, Leonardo s.p.a., BPER). I am responsible for setting design standards, ensuring quality from concept to launch and aligning user experience with business goals.
+- [leadership, pm] I've managed a team of 10 people, acting as team leader and project manager for high profile projects with prominent clients such as Mastercard, Leonardo s.p.a. and BPER. I am responsible for setting design standards, ensuring quality from concept to launch and aligning user experience with business goals.
 - [training, ai-training] I have held numerous training courses about design, communication and Generative AI to in-person groups ranging from 5 to 80 people.
 - [soft] I'm a result oriented person, I have a proactive and collaborative nature with a quick understanding of complex situations.
 - [leadership, design] I co-founded a startup, where I lead user experience, product design and communication as CXO.
 
 ## Experience
 
-### Chief Experience Officer (CXO) & Cofounder — Matcha
+### Chief Experience Officer (CXO) & Cofounder - Matcha
 
 - period: 03/2026 – present
 - duration: ongoing
@@ -76,10 +81,9 @@ Available bullets:
 - [leadership, design] Co-founded Matcha, a startup building a dating app with an integrated payment system for the first date, designed to turn matches into real-life meetings.
 - [design, leadership] As CXO I own the end-to-end user experience: product design choices, visual identity, graphics and communication.
 - [design] I define the product's design direction from concept to prototype, aligning user experience with brand and business goals.
+- [design, ai-training] I built the app's user flow through an AI enhanced workflow, using generative AI tools to speed up ideation, iteration and validation of the flow.
 
-Tools / Skills: Figma, User Centered Design, Design Thinking, Product Strategy, UX Research, Prototyping, Brand Identity, Communication Design, Entrepreneurship, Go-to-Market
-
-### AI Business Developer — DGS
+### AI Business Developer - DGS
 
 - period: 01/2026 – present
 - duration: ongoing
@@ -94,9 +98,7 @@ Available bullets:
 - [ai-training] Topics covered: LLMs, prompt engineering, AI agents, workflow automation.
 - [presales, b2b] I estimate the economic value of projects and carry out client negotiations, from initial proposal to deal closure.
 
-Tools / Skills: PowerPoint, Mural, Design Thinking, Solution Design, Technical Presales, Negotiation, Business Development, Pricing & Effort Estimation, LLMs, Prompt Engineering, AI Agents, Workflow Automation, Workshop Facilitation, Public Speaking, Stakeholder Management
-
-### Team Leader & Project Manager — BID Company
+### Team Leader & Project Manager - BID Company
 
 - period: 03/2024 – 12/2025
 - duration: 2 years
@@ -110,9 +112,7 @@ Available bullets:
 - [design, b2b] Delivered B2B products with up to ~500 users.
 - [training, design] Delivered design training courses covering cognitive ergonomics, data visualization and product design.
 
-Tools / Skills: Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Power BI, User Centered Design, Design Thinking, Budgeting, Change Management, Card Sorting, User Interviews, Usability Testing, Wireframing, Prototyping, Information Architecture
-
-### UI/UX Engineer & Front End Developer — BID Company
+### UI/UX Engineer & Front End Developer - BID Company
 
 - period: 02/2021 – 03/2024
 - duration: 3 years
@@ -124,9 +124,7 @@ Available bullets:
 - [design, dev] The workflow involved understanding the requirements, estimating the effort for each task, creating a mockup, prototyping an MVP and implementing the final product.
 - [design, research] I developed new product ideas in collaboration with the R&D team and company management.
 
-Tools / Skills: Figma, React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, Git, Github Actions, AWS, Vercel, REST APIs, Excel
-
-### Full Stack Developer — Freelance
+### Full Stack Developer - Freelance
 
 - period: 09/2019 – 02/2021
 - duration: 1.5 years
@@ -137,27 +135,21 @@ Available bullets:
 - [dev] I have developed websites to meet various customer needs.
 - [dev, pm] I managed communication with clients and I was responsible for organizing my own work. The most suitable tech solution was chosen based on client's requirements.
 
-Tools / Skills: Adobe Photoshop, Adobe XD, MERN Stack, MongoDB, Node.js, Express, Wordpress, Gitlab
-
 ## Education
 
-### Master's Degree in Communication Theory and Technology — Università degli Studi di Milano-Bicocca
+### Master's Degree in Communication Theory and Technology - Università degli Studi di Milano-Bicocca
 
 - period: 2018 – 2021
 - location: Milan, Italy
 - grade: 110L/110
 - thesis: Development of a videogame and analysis of the perceived difficulty
 
-Tools / Skills: Human Computer Interaction (HCI), Unity, C#, Tableau, InVision, Google Analytics, HTML, CSS, LaTeX
-
-### Bachelor's Degree in Computer Science — Università degli Studi di Milano-Bicocca
+### Bachelor's Degree in Computer Science - Università degli Studi di Milano-Bicocca
 
 - period: 2014 – 2018
 - location: Milan, Italy
 - grade: 100/110
 - thesis: Automatic phenotyping of plants using deep learning networks
-
-Tools / Skills: MATLAB, Python, Pytorch, Java, Software Design
 
 ## Publications
 
@@ -174,34 +166,32 @@ Tools / Skills: MATLAB, Python, Pytorch, Java, Software Design
 
 - year: 2020
 - tags: [design, research]
-- Tools / Skills: Tableau
 
 ### Software for facial recognition and identification of facial features
 
 - year: 2019
 - tags: [dev, research]
-- Tools / Skills: MATLAB, Machine Learning
 
 ### Automated sudoku solving app starting from a photo taken from mobile
 
 - year: 2017
 - tags: [dev]
-- Tools / Skills: MATLAB, Image Recognition
 
 ### Design and development of a tabletop role playing game
 
 - period: 2014 – 2020
 - tags: [design]
-- Tools / Skills: Adobe Photoshop, d20 System
 
 ## Main Tools / Skills (full pool)
 
-- [design] Figma, Adobe Photoshop, HCI, User Centered Design, Design Thinking
-- [dev] React, Angular, Flutter, Typescript, Javascript, Tailwind CSS, SASS, REST APIs, AWS, Vercel, Python, PostgreSQL, Github
-- [pm] Scrum, Waterfall, Confluence, Jira, Budgeting, Change Management
-- [ai-training] Generative AI workflows & agents (Google Stitch, Claude Cowork, n8n, Gamma, ChatGPT, Copilot), LLMs, prompt engineering
+- [design] Figma, Adobe Photoshop, Adobe XD, InVision, Human Computer Interaction (HCI), User Centered Design, Design Thinking, UX Research, Prototyping, Wireframing, Usability Testing, Information Architecture, Card Sorting, User Interviews, Brand Identity, Communication Design, d20 System
+- [dev] React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, HTML, CSS, REST APIs, Node.js, Express, MERN Stack, MongoDB, PostgreSQL, AWS, Vercel, Git, Github, Github Actions, Gitlab, Wordpress, Python, Java, C#, Unity, MATLAB, LaTeX, Software Design
+- [research] Tableau, Power BI, Google Analytics, Excel, Pytorch, Machine Learning, Image Recognition
+- [pm] Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Budgeting, Change Management, Pricing & Effort Estimation, Stakeholder Management
+- [presales, b2b] Product Strategy, Go-to-Market, Entrepreneurship, Solution Design, Technical Presales, Business Development, Negotiation
+- [ai-training] Generative AI workflows & agents (Claude Cowork, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), LLMs, Prompt Engineering, AI Agents, Workflow Automation
 - [leadership] Coaching, Mentoring, Conflict Management, Leadership (Multidisciplinary Teams), Corporate Communication
-- [training] Training & Workshops, Digital Course Design
+- [training] Training & Workshops, Digital Course Design, Workshop Facilitation, Public Speaking, Mural, PowerPoint
 
 ## Languages
 
