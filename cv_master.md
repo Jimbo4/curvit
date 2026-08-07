@@ -1,52 +1,8 @@
 # CV Master - Jacopo Marcolini
 
-> Single source of truth for generating CVs.
+> Single source of truth for CV content (content only, no rules).
+> Rules for editing this file and for generating CVs live in `CLAUDE.md` in this folder: read it first.
 > Conventions: `##` sections, `###` subsections, `key: value` for metadata, `[...]` for tags at the start of bullets.
-
-<!--
-CONTEXT FOR FUTURE EDITS (read before working on this file)
-
-Purpose
-- This file is a master pool of content, not a CV itself. Tailored CVs are generated from it by selecting bullets via tags. Bullets are alternatives to pick from, they can also be included in full but it isn't mandatory.
-
-Language and style
-- The file is written in English only, always. Translate any Italian input before adding it.
-- First person for experience bullets ("I manage...", past tense for ended roles, present tense for ongoing ones).
-- Quantify where possible (team size, budget, users, contract value, audience size).
-
-Structure rules
-- Section order in every generated CV is fixed: Summary, Experience, Education, Publications, Personal projects, Skills, Languages.
-- Right after the Languages section, always add the availability line (see "Availability" below).
-- Experiences are listed in reverse chronological order: the most recent is always first.
-- Experiences titles are always in the form "Role - Company"
-- Ongoing positions: `period: MM/YYYY – present` and `duration: ongoing`. Ended positions: fixed period and rounded duration (e.g. "2 years").
-- Training/instructor activities are NOT a separate section: they live as bullets inside the experience where they happened.
-- There is no Inbox section: Jacopo requests changes directly via chat.
-- Each experience has: metadata and "Available bullets:" (tagged).
-- Skills and tools are NOT repeated inside experiences, education or projects: they all live in the single "Main Tools / Skills (full pool)" section, grouped by tag.
-
-Generation rules (layout and style)
-- Voice: in the generated CV use an impersonal style (no "I ..."), even though the master pool is written in first person. Rewrite the bullets accordingly.
-- Client names: always frame them as examples, with wording like "clients such as ..." or "including ...", never as an exhaustive list.
-- Separators: use `|` as the inline separator, never `•`.
-- Never use the em dash. Use commas, brackets, colons or semicolons depending on the context; a line break or formatting can also replace it.
-- Summary: never a wall of text. If it gets long, split it into short paragraphs so it stays pleasant to read for a human.
-- Colours: before generating a CV, always ask Jacopo for three colours:
-  1. base colour, for body text;
-  2. primary colour, for section titles, experience titles, personal project names, publication names, and graphic elements such as rules and separators;
-  3. secondary colour, for subtitles and the names of the companies he worked for.
-- Output location: by default, create every generated file (CVs, drafts, exports) inside the project's `./output` folder. That folder is git-ignored.
-- Respect the Gestalt law of proximity: a heading must sit closer to the block it introduces than to the preceding one, and related items must be grouped with tighter spacing than unrelated ones.
-
-Tags
-- Claude chooses the tags autonomously, based on what fits best. Current pool: design, dev, pm, leadership, b2b, training, ai-training, presales, research, soft. New tags can be added when needed.
-
-When editing
-- Enrich raw notes into polished tagged bullets; ask Jacopo only when key information is missing (dates, numbers, scope).
-- Add any new tool or skill to "Main Tools / Skills (full pool)" only, in the right tag group.
-- Update this context if a new rule or important information is found. 
--->
-
 
 ## Personal details
 
