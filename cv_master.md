@@ -212,3 +212,4 @@ Tools / Skills: MATLAB, Python, Pytorch, Java, Software Design
 ## Availability
 
 - Available for business travel and relocation.
+- Driving licence: category B.
