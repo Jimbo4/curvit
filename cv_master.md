@@ -34,10 +34,10 @@ Available bullets:
 
 Available bullets:
 
-- [leadership, design] Co-founded Matcha, a startup building a dating app with an integrated payment system for the first date, designed to turn matches into real-life meetings.
+- [leadership, design] Co-founded Matcha, a startup dating app with an integrated payment system for the first date, designed to turn matches into real-life meetings.
 - [design, leadership] As CXO I own the end-to-end user experience: product design choices, visual identity, graphics and communication.
 - [design] I define the product's design direction from concept to prototype, aligning user experience with brand and business goals.
-- [design, ai-training] I built the app's user flow through an AI enhanced workflow, using generative AI tools to speed up ideation, iteration and validation of the flow.
+- [design, ai-training] I built the app's user flow through an AI-enhanced workflow, using generative AI tools to speed up ideation, iteration and validation of the flow.
 
 ### AI Business Developer - DGS
 
@@ -47,9 +47,9 @@ Available bullets:
 
 Available bullets:
 
-- [presales, leadership, b2b] Business development for the Artificial Intelligence line across the entire Group, a role I took on following the acquisition of BID Company by DGS.
+- [presales, leadership, b2b] Business development for the Artificial Intelligence line across the entire DGS Group, a role I took on following the acquisition of BID Company by DGS.
 - [presales, ai-training, b2b] I support the sales team in presales activities, bringing technical solidity to the design of AI solutions and products, from opportunity scoping to solution proposal.
-- [presales, b2b] Contributed to closing contracts worth ~500k EUR/year for clients such as Mastercard, Leonardo, Viatris, Cassa Depositi e Prestiti, Videlio, Coima and Dulevo.
+- [presales, b2b] Contributed to closing contracts worth ~500k EUR/year for clients such as Mastercard, Leonardo, Viatris, Cassa Depositi e Prestiti, Videlio, Coima and Fayat Group.
 - [training, ai-training] Creation and delivery of training courses on generative AI, including hands-on workshops and enablement programs for corporate clients within Generative AI Hub initiatives.
 - [ai-training] Topics covered: LLMs, prompt engineering, AI agents, workflow automation.
 - [presales, b2b] I estimate the economic value of projects and carry out client negotiations, from initial proposal to deal closure.
@@ -63,7 +63,7 @@ Available bullets:
 Available bullets:
 
 - [leadership, pm] I managed and coordinated activities on projects, driving the product's vision while collaborating with cross-functional teams.
-- [pm] I was responsible for making sure deadlines were met and for organizing the division of work, ensuring quality standards were achieved and that people were motivated and engaged.
+- [pm] I was responsible for making sure deadlines were met and for organizing the division of work in a team of 10, ensuring quality standards were achieved and that people were motivated and engaged.
 - [pm, b2b] Managed budgets up to ~1M EUR across up to ~10 projects/year.
 - [design, b2b] Delivered B2B products with up to ~500 users.
 - [training, design] Delivered design training courses covering cognitive ergonomics, data visualization and product design.
@@ -77,7 +77,7 @@ Available bullets:
 Available bullets:
 
 - [design, dev] I designed and developed web platforms and mobile apps.
-- [design, dev] The workflow involved understanding the requirements, estimating the effort for each task, creating a mockup, prototyping an MVP and implementing the final product.
+- [design, dev] The workflow involved understanding the requirements, estimating the effort for each task, creating a mockup, prototyping an MVP and implementing the final product, using the client's preferred development stack.
 - [design, research] I developed new product ideas in collaboration with the R&D team and company management.
 
 ### Full Stack Developer - Freelance
@@ -118,7 +118,7 @@ Available bullets:
 
 ## Personal projects
 
-### Interactive data visualizations and statistical analysis about diversity in fictional characters across comics, tv series and movies
+### Interactive data visualizations and statistical analysis about diversity in fictional characters across popular media
 
 - year: 2020
 - tags: [design, research]
@@ -142,10 +142,10 @@ Available bullets:
 
 - [design] Figma, Adobe Photoshop, Adobe XD, InVision, Human Computer Interaction (HCI), User Centered Design, Design Thinking, UX Research, Prototyping, Wireframing, Usability Testing, Information Architecture, Card Sorting, User Interviews, Brand Identity, Communication Design, d20 System
 - [dev] React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, HTML, CSS, REST APIs, Node.js, Express, MERN Stack, MongoDB, PostgreSQL, AWS, Vercel, Git, Github, Github Actions, Gitlab, Wordpress, Python, Java, C#, Unity, MATLAB, LaTeX, Software Design
-- [research] Tableau, Power BI, Google Analytics, Excel, Pytorch, Machine Learning, Image Recognition
+- [research] Tableau, Power BI, Google Analytics, Excel, Pytorch, Machine Learning, Computer Vision, Image Recognition
 - [pm] Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Budgeting, Change Management, Pricing & Effort Estimation, Stakeholder Management
 - [presales, b2b] Product Strategy, Go-to-Market, Entrepreneurship, Solution Design, Technical Presales, Business Development, Negotiation
-- [ai-training] Generative AI workflows & agents (Claude Cowork, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), LLMs, Prompt Engineering, AI Agents, Workflow Automation
+- [ai-training] Generative AI workflows & agents (Claude Cowork, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), LLMs, MCP, Prompt Engineering, AI Agents, Workflow Automation
 - [leadership] Coaching, Mentoring, Conflict Management, Leadership (Multidisciplinary Teams), Corporate Communication
 - [training] Training & Workshops, Digital Course Design, Workshop Facilitation, Public Speaking, Mural, PowerPoint
 

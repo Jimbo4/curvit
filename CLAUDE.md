@@ -29,8 +29,14 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 
 - Voice: in the generated CV use an impersonal style (no "I ..."), even though the master pool is written in first person. Rewrite the bullets accordingly.
 - Client names: always frame them as examples, with wording like "clients such as ..." or "including ...", never as an exhaustive list.
-- Separators: use `|` as the inline separator, never `•`.
+- Separators: use `|` as the inline separator for lists (contacts metadata, experience metadata, languages), never `•`. Between role and company (and between publication venue and DOI) use `-`, e.g. "AI Business Developer - DGS".
+- Lead-in labels (in Summary paragraphs and Skills groups) are followed by a colon, e.g. "Leadership & Delivery: ...", never by `·` or other separators.
+- Duration goes in parentheses right after the period, e.g. "03/2026 – present (ongoing) | Milan, Italy" or "03/2024 – 12/2025 (2 years) | Milan, Italy".
+- Education metadata order: period | location | grade (grade last).
+- Contacts: stacked vertically, one per line, LinkedIn first (LinkedIn, email, phone, location). Email and LinkedIn are clickable but visually discreet: body colour, no underline.
 - Never use the em dash. Use commas, brackets, colons or semicolons depending on the context; a line break or formatting can also replace it.
+- Never use two or more consecutive spaces (spacebar whitespace): spacing between words is always a single space, as per standard Word writing rules. Visual separation is obtained with tabs, indents or spacing properties, not repeated spaces.
+- Typography: one single uniform body size for all body text, no small size variations between sections. Section titles are clearly larger and heavier (bold weight) to mark the hierarchy.
 - Summary: never a wall of text. If it gets long, split it into short paragraphs so it stays pleasant to read for a human.
 - Colours: before generating a CV, always ask Jacopo for three colours:
   1. base colour, for body text;
@@ -41,7 +47,9 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 ## Output rules
 
 - By default, create every generated file (CVs, drafts, exports) inside the project's `./output` folder. That folder is git-ignored.
-- Never overwrite an existing output file: always create a new version with a timestamp in the filename, format `YYYYMMDD_HHmm` (e.g. `cv_jacopo_marcolini_20260807_1830.pdf`).
+- File naming: date prefix at the start of the filename, format `YYYYMMDD_` (e.g. `20260810_cv_jacopo_marcolini.docx`).
+- Never overwrite an existing output file: if a file with the same name already exists for the same day, add the time (`YYYYMMDD_HHmm_`) to disambiguate.
+- Alongside every generated `.docx`, also export the matching `.pdf` with the same base name.
 
 ## Tags
 
