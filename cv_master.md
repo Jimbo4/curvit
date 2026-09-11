@@ -7,8 +7,8 @@
 ## Personal details
 
 - name: Jacopo Marcolini
-- main title: CXO & Product Design Lead
-- secondary titles: Team Leader | Project Manager | Generative AI Instructor | Fullstack Developer
+- main title: Product Design Lead
+- secondary titles: Team Leader | Project Manager | AI Business Developer | Generative AI Instructor | Co-founder & CXO | Fullstack Developer
 - email: jacopomma@gmail.com
 - linkedin: linkedin.com/in/jacopo-marcolini
 - phone: +393458591948
@@ -19,7 +19,7 @@
 Available bullets:
 
 - [leadership, pm] I've managed a team of 10 people, acting as team leader and project manager for high profile projects with prominent clients such as Mastercard, Leonardo s.p.a. and BPER. I am responsible for setting design standards, ensuring quality from concept to launch and aligning user experience with business goals.
-- [training, ai-training] I have held numerous training courses about design, communication and Generative AI to in-person groups ranging from 5 to 80 people.
+- [training, ai-training] I have delivered over 400 hours of training to more than 600 people on generative AI, design and communication, in groups ranging from 5 to 80 participants.
 - [soft] I'm a result oriented person, I have a proactive and collaborative nature with a quick understanding of complex situations.
 - [leadership, design] I co-founded a startup, where I lead user experience, product design and communication as CXO.
 
@@ -38,6 +38,11 @@ Available bullets:
 - [design, leadership] As CXO I own the end-to-end user experience: product design choices, visual identity, graphics and communication.
 - [design] I define the product's design direction from concept to prototype, aligning user experience with brand and business goals.
 - [design, ai-training] I built the app's user flow through an AI-enhanced workflow, using generative AI tools to speed up ideation, iteration and validation of the flow.
+- [pm, design] I framed the core problem, matches that never turn into real meetings, and designed the product by subtraction: no in-app messaging, a pre-booked first date instead.
+- [pm, b2b] I set up the two-sided model, users and partner venues, defining how supply-side constraints shape the user flow.
+- [pm, design] I validated the flow through iterated prototypes, shortening the cycle from hypothesis to feedback.
+- [pm] I turned regulatory constraints (GDPR, Italian consumer law, payment for the first date) into product requirements.
+- [pm] I defined the product's north star metrics before launch: share of matches that become booked dates, and share of booked dates actually attended.
 
 ### AI Business Developer - DGS
 
@@ -52,6 +57,8 @@ Available bullets:
 - [presales, b2b] Contributed to closing contracts worth ~500k EUR/year for clients such as Mastercard, Leonardo, Viatris, Cassa Depositi e Prestiti, Videlio, Coima and Fayat Group.
 - [training, ai-training] Creation and delivery of training courses on generative AI, including hands-on workshops and enablement programs for corporate clients within Generative AI Hub initiatives.
 - [ai-training] Topics covered: LLMs, prompt engineering, AI agents, workflow automation.
+- [training, ai-training] I have delivered over 400 hours of training to more than 600 people, in groups ranging from 5 to 80 participants.
+- [training, ai-training, b2b] Training sessions consistently received positive feedback and generated follow-on business: several enablement programmes evolved into commercial opportunities and partnerships.
 - [presales, b2b] I estimate the economic value of projects and carry out client negotiations, from initial proposal to deal closure.
 
 ### Team Leader & Project Manager - BID Company

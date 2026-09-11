@@ -28,6 +28,7 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 
 ## Generation rules (layout and style)
 
+- The main title in the master is a fallback. In a generated CV, replace it with the title of the target role or job posting, and reorder the secondary titles so the ones relevant to that role come first.
 - Voice: in the generated CV use an impersonal style (no "I ..."), even though the master pool is written in first person. Rewrite the bullets accordingly.
 - Client names: always frame them as examples, with wording like "clients such as ..." or "including ...", never as an exhaustive list.
 - Separators: use `|` as the inline separator for lists (contacts metadata, experience metadata, languages), never `•`. Between role and company (and between publication venue and DOI) use `-`, e.g. "AI Business Developer - DGS".
