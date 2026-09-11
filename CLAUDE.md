@@ -15,7 +15,8 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 
 ## Structure rules
 
-- Section order in every generated CV is fixed: Summary, Experience, Education, Publications, Personal projects, Skills, Languages.
+- Section order in every generated CV is fixed: Summary, Experience, Education, Publications, Personal projects, Certifications, Skills, Languages.
+- Certifications: professional or mandatory certifications. Each has date, standard/reference and tags. Include them in a generated CV only when relevant to the target role.
 - Right after the Languages section, always add the availability lines (see the "Availability" section of the master).
 - Experiences are listed in reverse chronological order: the most recent is always first.
 - Experience titles are always in the form "Role - Company".
@@ -53,7 +54,7 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 
 ## Tags
 
-- Claude chooses the tags autonomously, based on what fits best. Current pool: design, dev, pm, leadership, b2b, training, ai-training, presales, research, soft. New tags can be added when needed.
+- Claude chooses the tags autonomously, based on what fits best. Current pool: design, dev, pm, leadership, b2b, training, ai-training, presales, research, soft, safety. New tags can be added when needed.
 
 ## When editing the master
 

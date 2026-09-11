@@ -107,6 +107,20 @@ Available bullets:
 - grade: 100/110
 - thesis: Automatic phenotyping of plants using deep learning networks
 
+## Certifications
+
+### First Aid Responder
+
+- date: 05/2025
+- standard: D.Lgs. 81/08 | D.M. 388/2003, groups B/C
+- tags: [safety]
+
+### Fire Emergency Responder, Level 1
+
+- date: 06/2025
+- standard: D.Lgs. 81/08 | fire safety level 1
+- tags: [safety]
+
 ## Publications
 
 ### Early Detection of Skills Demand with Deep Learning Based Timeline Cover on Temporal Knowledge Graph
