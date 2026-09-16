@@ -57,6 +57,7 @@ Available bullets:
 - [presales, b2b] Contributed to closing contracts worth ~500k EUR/year for clients such as Mastercard, Leonardo, Viatris, Cassa Depositi e Prestiti, Videlio, Coima and Fayat Group.
 - [training, ai-training] Creation and delivery of training courses on generative AI, including hands-on workshops and enablement programs for corporate clients within Generative AI Hub initiatives.
 - [ai-training] Topics covered: LLMs, prompt engineering, AI agents, workflow automation.
+- [training, ai-training] Alongside corporate clients, I have delivered training in academic contexts, including Università degli Studi di Milano (Statale) and Libera Università di Bolzano.
 - [training, ai-training] I have delivered over 400 hours of training to more than 600 people, in groups ranging from 5 to 80 participants.
 - [training, ai-training, b2b] Training sessions consistently received positive feedback and generated follow-on business: several enablement programmes evolved into commercial opportunities and partnerships.
 - [presales, b2b] I estimate the economic value of projects and carry out client negotiations, from initial proposal to deal closure.
