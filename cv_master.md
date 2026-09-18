@@ -61,6 +61,7 @@ Available bullets:
 - [training, ai-training] I have delivered over 400 hours of training to more than 600 people, in groups ranging from 5 to 80 participants.
 - [training, ai-training, b2b] Training sessions consistently received positive feedback and generated follow-on business: several enablement programmes evolved into commercial opportunities and partnerships.
 - [presales, b2b] I estimate the economic value of projects and carry out client negotiations, from initial proposal to deal closure.
+- [presales, research, b2b] I run discovery sessions and workshops with client stakeholders and end users to map processes, data, constraints and priorities, turning them into scoped use cases, success metrics and a verifiable work plan.
 
 ### Team Leader & Project Manager - BID Company
 
@@ -163,7 +164,7 @@ Available bullets:
 ## Main Tools / Skills (full pool)
 
 - [design] Figma, Adobe Photoshop, Adobe XD, InVision, Human Computer Interaction (HCI), User Centered Design, Design Thinking, UX Research, Prototyping, Wireframing, Usability Testing, Information Architecture, Card Sorting, User Interviews, Brand Identity, Communication Design, d20 System
-- [dev] React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, HTML, CSS, REST APIs, Node.js, Express, MERN Stack, MongoDB, PostgreSQL, AWS, Vercel, Git, Github, Github Actions, Gitlab, Wordpress, Python, Java, C#, Unity, MATLAB, LaTeX, Software Design
+- [dev] React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, HTML, CSS, REST APIs, Node.js, Express, MERN Stack, MongoDB, SQL, PostgreSQL, AWS, Vercel, Git, Github, Github Actions, Gitlab, Wordpress, Python, Java, C#, Unity, MATLAB, LaTeX, Software Design
 - [research] Tableau, Power BI, Google Analytics, Excel, Pytorch, Machine Learning, Computer Vision, Image Recognition
 - [pm] Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Budgeting, Change Management, Pricing & Effort Estimation, Stakeholder Management
 - [presales, b2b] Product Strategy, Go-to-Market, Entrepreneurship, Solution Design, Technical Presales, Business Development, Negotiation

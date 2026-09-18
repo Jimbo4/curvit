@@ -25,6 +25,7 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 - There is no Inbox section: Jacopo requests changes directly via chat.
 - Each experience has: metadata and "Available bullets:" (tagged).
 - Skills and tools are NOT repeated inside experiences, education or projects: they all live in the single "Main Tools / Skills (full pool)" section of the master, grouped by tag.
+- ATS keywords: the generated CV always includes the FULL skills pool from the master, every tool and skill in every group, never a subset. Automatic ATS screeners match on keywords, so no keyword may be dropped to save space: recover space by shortening bullets or spacing, never by cutting skills. Only the order of the groups changes, with the ones relevant to the target role first. The more keywords the better: when a new relevant tool or skill emerges, add it to the master pool.
 
 ## Generation rules (layout and style)
 
