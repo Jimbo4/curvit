@@ -39,6 +39,7 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 - Contacts: stacked vertically, one per line, LinkedIn first (LinkedIn, email, phone, location). Email and LinkedIn are clickable but visually discreet: body colour, no underline.
 - Never use the em dash. Use commas, brackets, colons or semicolons depending on the context; a line break or formatting can also replace it.
 - Never use two or more consecutive spaces (spacebar whitespace): spacing between words is always a single space, as per standard Word writing rules. Visual separation is obtained with tabs, indents or spacing properties, not repeated spaces.
+- Fonts: set weights through the bold property of a base family (e.g. font "Poppins" + bold), never through a weight-named family such as "Poppins Bold", unless that exact family is embedded in the .docx. Otherwise the PDF export falls back to a substitute font (e.g. DejaVu Serif). After exporting, check the fonts embedded in the PDF.
 - Typography: one single uniform body size for all body text, no small size variations between sections. Section titles are clearly larger and heavier (bold weight) to mark the hierarchy.
 - Summary: never a wall of text. If it gets long, split it into short paragraphs so it stays pleasant to read for a human.
 - Colours: before generating a CV, always ask Jacopo for three colours:
@@ -50,9 +51,10 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 ## Output rules
 
 - By default, create every generated file (CVs, drafts, exports) inside the project's `./output` folder. That folder is git-ignored.
-- File naming: date prefix at the start of the filename, format `YYYYMMDD_` (e.g. `20260810_cv_jacopo_marcolini.docx`).
+- File naming: date prefix at the start of the filename, format `YYYYMMDD_`, followed by `cv_jacopo_marcolini_` and the target position in lowercase snake_case, to tell outputs apart (e.g. `20260810_cv_jacopo_marcolini_product_lead.docx`).
 - Never overwrite an existing output file: if a file with the same name already exists for the same day, add the time (`YYYYMMDD_HHmm_`) to disambiguate.
 - Alongside every generated `.docx`, also export the matching `.pdf` with the same base name.
+- Temporary files created as intermediate steps (previews, conversion leftovers such as `.tmp` files) must be deleted once the final output is ready. Jacopo has given permission for this cleanup.
 
 ## Tags
 

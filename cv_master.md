@@ -40,6 +40,8 @@ Available bullets:
 - [design, ai-training] I built the app's user flow through an AI-enhanced workflow, using generative AI tools to speed up ideation, iteration and validation of the flow.
 - [pm, design] I framed the core problem, matches that never turn into real meetings, and designed the product by subtraction: no in-app messaging, a pre-booked first date instead.
 - [pm, b2b] I set up the two-sided model, users and partner venues, defining how supply-side constraints shape the user flow.
+- [pm, b2b, design] I designed the in-app payments flow for the first date, from booking to payment confirmation, integrating it into the core user journey.
+- [pm, research] I work on funnel optimization, from match to booked and attended date, using A/B testing to compare flow variants and improve conversion.
 - [pm, design] I validated the flow through iterated prototypes, shortening the cycle from hypothesis to feedback.
 - [pm] I turned regulatory constraints (GDPR, Italian consumer law, payment for the first date) into product requirements.
 - [pm] I defined the product's north star metrics before launch: share of matches that become booked dates, and share of booked dates actually attended.
@@ -72,6 +74,7 @@ Available bullets:
 Available bullets:
 
 - [leadership, pm] I managed and coordinated activities on projects, driving the product's vision while collaborating with cross-functional teams.
+- [pm, leadership] I handled product management and roadmapping for client products, prioritising features and aligning delivery with business goals and stakeholder needs.
 - [pm] I was responsible for making sure deadlines were met and for organizing the division of work in a team of 10, ensuring quality standards were achieved and that people were motivated and engaged.
 - [pm, b2b] Managed budgets up to ~1M EUR across up to ~10 projects/year.
 - [design, b2b] Delivered B2B products with up to ~500 users.
@@ -165,9 +168,9 @@ Available bullets:
 
 - [design] Figma, Adobe Photoshop, Adobe XD, InVision, Human Computer Interaction (HCI), User Centered Design, Design Thinking, UX Research, Prototyping, Wireframing, Usability Testing, Information Architecture, Card Sorting, User Interviews, Brand Identity, Communication Design, d20 System
 - [dev] React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, HTML, CSS, REST APIs, Node.js, Express, MERN Stack, MongoDB, SQL, PostgreSQL, AWS, Vercel, Git, Github, Github Actions, Gitlab, Wordpress, Python, Java, C#, Unity, MATLAB, LaTeX, Software Design
-- [research] Tableau, Power BI, Google Analytics, Excel, Pytorch, Machine Learning, Computer Vision, Image Recognition
-- [pm] Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Budgeting, Change Management, Pricing & Effort Estimation, Stakeholder Management
-- [presales, b2b] Product Strategy, Go-to-Market, Entrepreneurship, Solution Design, Technical Presales, Business Development, Negotiation
+- [research] Tableau, Power BI, Google Analytics, Excel, Pytorch, Machine Learning, Computer Vision, Image Recognition, A/B Testing
+- [pm] Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Budgeting, Change Management, Pricing & Effort Estimation, Stakeholder Management, Product Management, Roadmapping
+- [presales, b2b] Product Strategy, Go-to-Market, Entrepreneurship, Solution Design, Technical Presales, Business Development, Negotiation, Payments, Funnel Optimization
 - [ai-training] Generative AI workflows & agents (Claude Cowork, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), LLMs, MCP, Prompt Engineering, AI Agents, Workflow Automation
 - [leadership] Coaching, Mentoring, Conflict Management, Leadership (Multidisciplinary Teams), Corporate Communication
 - [training] Training & Workshops, Digital Course Design, Workshop Facilitation, Public Speaking, Mural, PowerPoint
