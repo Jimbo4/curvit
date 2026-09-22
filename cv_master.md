@@ -59,6 +59,7 @@ Available bullets:
 - [presales, b2b] Contributed to closing contracts worth ~500k EUR/year for clients such as Mastercard, Leonardo, Viatris, Cassa Depositi e Prestiti, Videlio, Coima and Fayat Group.
 - [training, ai-training] Creation and delivery of training courses on generative AI, including hands-on workshops and enablement programs for corporate clients within Generative AI Hub initiatives.
 - [ai-training] Topics covered: LLMs, prompt engineering, AI agents, workflow automation.
+- [training, ai-training, leadership] Training also covers change management and reskilling, supporting client teams through the organisational adoption of AI.
 - [training, ai-training] Alongside corporate clients, I have delivered training in academic contexts, including Università degli Studi di Milano (Statale) and Libera Università di Bolzano.
 - [training, ai-training] I have delivered over 400 hours of training to more than 600 people, in groups ranging from 5 to 80 participants.
 - [training, ai-training, b2b] Training sessions consistently received positive feedback and generated follow-on business: several enablement programmes evolved into commercial opportunities and partnerships.
@@ -91,6 +92,8 @@ Available bullets:
 - [design, dev] I designed and developed web platforms and mobile apps.
 - [design, dev] The workflow involved understanding the requirements, estimating the effort for each task, creating a mockup, prototyping an MVP and implementing the final product, using the client's preferred development stack.
 - [design, research] I developed new product ideas in collaboration with the R&D team and company management.
+- [leadership, research] I worked as a direct report to the CIO.
+- [leadership, research] I grew the R&D team from 3 to 30 people, and I was responsible for the hiring interviews.
 
 ### Full Stack Developer - Freelance
 
@@ -172,8 +175,8 @@ Available bullets:
 - [pm] Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Budgeting, Change Management, Pricing & Effort Estimation, Stakeholder Management, Product Management, Roadmapping
 - [presales, b2b] Product Strategy, Go-to-Market, Entrepreneurship, Solution Design, Technical Presales, Business Development, Negotiation, Payments, Funnel Optimization
 - [ai-training] Generative AI workflows & agents (Claude Cowork, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), LLMs, MCP, Prompt Engineering, AI Agents, Workflow Automation
-- [leadership] Coaching, Mentoring, Conflict Management, Leadership (Multidisciplinary Teams), Corporate Communication
-- [training] Training & Workshops, Digital Course Design, Workshop Facilitation, Public Speaking, Mural, PowerPoint
+- [leadership] Coaching, Mentoring, Hiring & Interviewing, Team Scaling, Conflict Management, Leadership (Multidisciplinary Teams), Corporate Communication
+- [training] Training & Workshops, Reskilling & Upskilling, Digital Course Design, Workshop Facilitation, Public Speaking, Mural, PowerPoint
 
 ## Languages
 
