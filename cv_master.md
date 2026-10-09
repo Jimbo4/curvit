@@ -9,9 +9,9 @@
 - name: Jacopo Marcolini
 - main title: Product Design Lead
 - secondary titles: Team Leader | Project Manager | AI Business Developer | Generative AI Instructor | Co-founder | Fullstack Developer
-- email: jacopomma@gmail.com
 - linkedin: linkedin.com/in/jacopo-marcolini
 - github: github.com/Jimbo4
+- email: jacopomma@gmail.com
 - phone: +393458591948
 - location: Milan, Italy
 
@@ -19,10 +19,10 @@
 
 Available bullets:
 
-- [leadership, pm] I've managed a team of 10 people, acting as team leader and project manager for high profile projects with prominent clients such as Mastercard, Leonardo s.p.a. and BPER. I am responsible for setting design standards, ensuring quality from concept to launch and aligning user experience with business goals.
-- [training, ai-training] I have delivered over 400 hours of training to more than 600 people on generative AI, design and communication, in groups ranging from 5 to 80 participants.
+- [leadership, pm] I've managed a team of 10 people, acting as team leader and project manager for high profile projects with prominent clients such as Mastercard, Leonardo s.p.a. and BPER, with budgets up to ~1M EUR across up to ~10 projects/year and B2B products with up to ~500 users. I am responsible for setting design standards, ensuring quality from concept to launch and aligning user experience with business goals. I drive product vision and roadmaps with cross-functional teams.
+- [training, ai-training] I have delivered over 400 hours of training to more than 600 people on generative AI, design and communication, in groups ranging from 5 to 80 participants, for corporate clients and universities.
 - [soft] I'm a result oriented person, I have a proactive and collaborative nature with a quick understanding of complex situations.
-- [leadership, design, marketing] I co-founded Matcha, a dating app I develop as a personal project, leading product, design and marketing.
+- [leadership, design, marketing] I co-founded Matcha (a dating app I develop as a personal project), leading product, design and marketing. I cover the full product cycle, from naming, branding and core flow design to in-app payments, GDPR compliance, a network of 10 partner venues and AI-assisted social content production.
 
 ## Experience
 
@@ -54,7 +54,7 @@ Available bullets:
 
 Available bullets:
 
-- [leadership, pm] I managed and coordinated activities on projects, driving the product's vision while collaborating with cross-functional teams.
+- [leadership, pm] I managed and coordinated project activities, driving the product vision with cross-functional teams.
 - [pm, leadership] I handled product management and roadmapping for client products, prioritising features and aligning delivery with business goals and stakeholder needs.
 - [pm] I was responsible for making sure deadlines were met and for organizing the division of work in a team of 10, ensuring quality standards were achieved and that people were motivated and engaged.
 - [pm, b2b] Managed budgets up to ~1M EUR across up to ~10 projects/year.
@@ -102,20 +102,6 @@ Available bullets:
 - grade: 100/110
 - thesis: Automatic phenotyping of plants using deep learning networks
 
-## Certifications
-
-### First Aid Responder
-
-- date: 05/2025
-- standard: D.Lgs. 81/08 | D.M. 388/2003, groups B/C
-- tags: [safety]
-
-### Fire Emergency Responder, Level 1
-
-- date: 06/2025
-- standard: D.Lgs. 81/08 | fire safety level 1
-- tags: [safety]
-
 ## Publications
 
 ### Early Detection of Skills Demand with Deep Learning Based Timeline Cover on Temporal Knowledge Graph
@@ -133,18 +119,18 @@ Available bullets:
 - role: Co-founder, CXO, CMO
 - location: Milan, Italy
 - website: matchadating.it
-- description: Dating app with verified profiles that turns every match into a pre-booked drink at a partner venue in Milan.
+- description: Dating app that turns every match into a pre-booked drink at a partner venue in Milan.
 
 Available bullets:
 
-- [pm, design] I designed the core flow, from match to a first date paid in-app, with chat opening 2 hours before the meeting.
+- [pm, design] I designed the core flow, from match to a first date paid in-app, with chat opening only briefly before the meeting to encourage in-person meetings.
 - [pm, research] I turned GDPR and consumer law constraints into requirements, defined the north star metrics and test flow variants to improve conversion.
 - [design, leadership] I own the user experience and visual identity, from naming and branding to store assets.
 - [b2b, presales] With the CEO, I built the partner venue network through field sales and an AI-assisted CRM: 10 venues to date.
 - [marketing] I lead B2C marketing for a 25-40 audience, with a focus on women and the LGBT+ community.
 - [marketing, ai-training, dev] I created the repositories of an AI-assisted content pipeline and use it to produce the social content and the launch trailer.
 
-### Interactive data visualizations and statistical analysis about diversity in fictional characters across popular media
+### Interactive data visualizations and statistical analysis of character diversity across popular media
 
 - year: 2020
 - tags: [design, research]
@@ -166,15 +152,29 @@ Available bullets:
 
 ## Main Tools / Skills (full pool)
 
-- [design] Figma, Adobe Photoshop, Adobe XD, InVision, Human Computer Interaction (HCI), User Centered Design, Design Thinking, UX Research, Prototyping, Wireframing, Usability Testing, Information Architecture, Card Sorting, User Interviews, Brand Identity, Communication Design, Mobile App Design, Design Systems, Design Tokens, Typography, Logo Design, Print Design, d20 System
+- [design] Figma, Adobe Photoshop, Adobe XD, InVision, UX Research, User Centered Design, Human Computer Interaction (HCI), Design Thinking, User Interviews, Card Sorting, Usability Testing, Information Architecture, Wireframing, Prototyping, Mobile App Design, Design Systems, Brand Identity, Communication Design, Logo Design, d20 System
 - [dev] React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, HTML, CSS, REST APIs, Node.js, Express, MERN Stack, MongoDB, SQL, PostgreSQL, AWS, Vercel, Git, Github, Github Actions, Gitlab, Wordpress, Python, Java, C#, Unity, MATLAB, LaTeX, Software Design
 - [research] Tableau, Power BI, Google Analytics, Excel, Pytorch, Machine Learning, Computer Vision, Image Recognition, Image Processing, A/B Testing, Data Cleaning & Enrichment
 - [pm] Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Budgeting, Change Management, Pricing & Effort Estimation, Stakeholder Management, Product Management, Roadmapping, North Star Metric, GDPR, Google Workspace (Docs, Sheets, Drive)
 - [presales, b2b] Product Strategy, Go-to-Market, Entrepreneurship, Solution Design, Technical Presales, Business Development, Negotiation, Payments, Funnel Optimization, Partnership Development, Field Sales, B2B Sales, Sales Pipeline Management, CRM, Lead Generation, Two-sided Marketplace
-- [ai-training] Generative AI workflows & agents (Claude Cowork, Claude Code, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), LLMs, MCP, Prompt Engineering, AI Agents, Workflow Automation, AI Computer Use, Text-to-Speech (Gemini TTS), Browser Automation, AI Content Pipelines, Context Engineering
+- [ai-training] Generative AI workflows & agents (Claude Cowork, Claude Code, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), LLMs, MCP, Prompt Engineering, AI Agents, Context Engineering, Workflow Automation, Text-to-Speech (Gemini TTS), AI Content Pipelines
 - [leadership] Coaching, Mentoring, Hiring & Interviewing, Team Scaling, Conflict Management, Leadership (Multidisciplinary Teams), Corporate Communication
 - [training] Training & Workshops, Reskilling & Upskilling, Digital Course Design, Workshop Facilitation, Public Speaking, Mural, PowerPoint
 - [marketing] Digital Marketing, B2C Marketing, Growth Marketing, User Acquisition, Social Media Marketing, Instagram, Content Strategy, Content Creation, Editorial Planning, Copywriting (Italian, English), Brand Positioning, Brand Naming, Audience Segmentation, Art Direction, Scriptwriting, Video Production, Motion Design, Audio Editing & Mixing, Content Licensing
+
+## Certifications
+
+### First Aid Responder
+
+- date: 05/2025
+- standard: D.Lgs. 81/08 | D.M. 388/2003, groups B/C
+- tags: [safety]
+
+### Fire Emergency Responder, Level 1
+
+- date: 06/2025
+- standard: D.Lgs. 81/08 | fire safety level 1
+- tags: [safety]
 
 ## Languages
 

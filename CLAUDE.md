@@ -15,12 +15,13 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 
 ## Structure rules
 
-- Section order in every generated CV is fixed: Summary, Experience, Education, Publications, Personal projects, Certifications, Skills, Languages.
+- Section order in every generated CV is fixed: Summary, Experience, Education, Publications, Personal projects, Skills, Certifications, Languages.
 - Certifications: professional or mandatory certifications. Each has date, standard/reference and tags. Include them in a generated CV only when relevant to the target role.
 - Right after the Languages section, always add the availability lines (see the "Availability" section of the master).
 - Experiences are listed in reverse chronological order: the most recent is always first.
 - Experience titles are always in the form "Role - Company".
 - Ongoing positions: `period: MM/YYYY – present` and `duration: ongoing`. Ended positions: fixed period and rounded duration (e.g. "2 years").
+- Work experiences in a generated CV have at most 5 bullets each. Pick the 5 most significant for the target role; when needed, merge two related bullets into one point, written discursively and coherently.
 - Training/instructor activities are NOT a separate section: they live as bullets inside the experience where they happened.
 - There is no Inbox section: Jacopo requests changes directly via chat.
 - Each experience has: metadata and "Available bullets:" (tagged).
@@ -40,16 +41,23 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 - Lead-in labels (in Summary paragraphs and Skills groups) are followed by a colon, e.g. "Leadership & Delivery: ...", never by `·` or other separators.
 - Duration goes in parentheses right after the period, e.g. "03/2026 – present (ongoing) | Milan, Italy" or "03/2024 – 12/2025 (2 years) | Milan, Italy".
 - Education metadata order: period | location | grade (grade last).
-- Contacts: stacked vertically, one per line, in this order: LinkedIn, GitHub, email, phone, location. LinkedIn, GitHub and email are clickable but visually discreet: body colour, no underline.
+- Contacts: links first, then email, phone and location. LinkedIn, GitHub and any future links share the first line, separated by 3 to 5 spaces depending on the available width (the generation script picks the count; if they do not fit, they wrap onto a second links line). Below, one per line: email, phone, location. Links and email are clickable but visually discreet: body colour, no underline.
+- Contact icons: each contact is preceded by a generic Material Symbols icon in the primary colour, separated from the text by a single space: `link` for every link (LinkedIn, GitHub and future ones), `mail`, `call`, `location_on`. Insert the icons as small inline images in the document body, never as icon-font glyphs or emoji: when an ATS extracts the text, glyphs turn into stray characters that can break email and phone parsing. The full contact text always stays visible; no tables, text boxes or page headers for contacts.
 - Never use the em dash. Use commas, brackets, colons or semicolons depending on the context; a line break or formatting can also replace it.
-- Never use two or more consecutive spaces (spacebar whitespace): spacing between words is always a single space, as per standard Word writing rules. Visual separation is obtained with tabs, indents or spacing properties, not repeated spaces.
+- Never use two or more consecutive spaces (spacebar whitespace): spacing between words is always a single space, as per standard Word writing rules. Visual separation is obtained with tabs, indents or spacing properties, not repeated spaces. The only exception is the 3 to 5 spaces between links in the contacts.
 - Fonts: set weights through the bold property of a base family (e.g. font "Poppins" + bold), never through a weight-named family such as "Poppins Bold", unless that exact family is embedded in the .docx. Otherwise the PDF export falls back to a substitute font (e.g. DejaVu Serif). After exporting, check the fonts embedded in the PDF.
+- Embed Poppins Regular and Bold in the .docx, so Word renders it identically on machines without Poppins.
+- List bullets use `•` (U+2022). Poppins has no `■` or `▪`: those glyphs fall back to another font (e.g. DejaVu Sans) in the PDF.
 - Typography: one single uniform body size for all body text, no small size variations between sections. Section titles are clearly larger and heavier (bold weight) to mark the hierarchy.
 - Summary: never a wall of text. If it gets long, split it into short paragraphs so it stays pleasant to read for a human.
+- Summary: the Leadership & Delivery paragraph includes quantitative project figures (team size, budgets, projects per year, users).
+- Summary: when a paragraph ends with a mostly empty last line, add a sentence with further relevant information to fill it.
+- Incidental clauses, such as a short description of an entry, go in brackets to keep the sentence readable, e.g. "Co-founder of Matcha (a dating app developed as a personal project), leading ...".
 - Colours: before generating a CV, always ask Jacopo for three colours:
   1. base colour, for body text;
   2. primary colour, for section titles, experience titles, personal project names, publication names, and graphic elements such as rules and separators;
   3. secondary colour, for subtitles and the names of the companies he worked for.
+- Avoid orphans: the last line of a paragraph or bullet must contain at least 3 words; a last line with only 1 or 2 words (e.g. "teams.", "Graph", "media (2020)") is an orphan. Fix it by rephrasing the sentence; in skill lists, reorder the items within the group (never drop a keyword). Exact titles that cannot be rephrased (e.g. a paper title) are the only exception: their font size may be reduced by 0.5 pt (the smallest step a .docx supports). This is a rare exception: standard font sizes stay fixed everywhere else. The generation script reports possible orphans; fix them in the spec and regenerate.
 - Respect the Gestalt law of proximity: a heading must sit closer to the block it introduces than to the preceding one, and related items must be grouped with tighter spacing than unrelated ones.
 
 ## Output rules
@@ -58,7 +66,16 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 - File naming: date prefix at the start of the filename, format `YYYYMMDD_`, followed by `cv_jacopo_marcolini_` and the target position in lowercase snake_case, to tell outputs apart (e.g. `20260810_cv_jacopo_marcolini_product_lead.docx`).
 - Never overwrite an existing output file: if a file with the same name already exists for the same day, add the time (`YYYYMMDD_HHmm_`) to disambiguate.
 - Alongside every generated `.docx`, also export the matching `.pdf` with the same base name.
+- The JSON spec of each generated CV stays in `./output` next to its `.docx` and `.pdf` (same base name): it is the source to regenerate or tweak that CV, not a temporary file.
 - Temporary files created as intermediate steps (previews, conversion leftovers such as `.tmp` files) must be deleted once the final output is ready. Jacopo has given permission for this cleanup.
+
+## Generation script
+
+- Generate every CV with `tools/build_cv.py`, to keep layout rules consistent and save tokens: Claude writes only the content spec, the script does the rest.
+- Usage: `python3 tools/build_cv.py output/<base_name>.json [--overwrite]`. The script builds the `.docx` (via `tools/build_docx.js`), embeds Poppins Regular and Bold, colours the icons, exports the `.pdf` with LibreOffice and prints a report: fonts embedded in the PDF, pages, em dashes, double spaces, possible orphans, contact lines as an ATS reads them. It refuses to overwrite existing files without `--overwrite`.
+- The spec is a JSON file: base name, colours, header (name, title, subtitle, links, contacts) and an ordered list of sections. Use the latest spec in `./output` as the template for a new one. Section types: `paragraphs` (labelled paragraphs: Summary, Skills), `entries` (experience, education, publications, projects, certifications: title, org, meta, subtitle, lines, bullets, optional `titleSize` and a trailing `list` of one-liners), `lines` (Languages and availability). Rich text is a string or a list of segments `{text, style: primary|secondary|bold, url}`.
+- Layout constants (fonts, sizes, spacing, margins, keep-together rules) live in the script: change them there, not in the spec, and update this file if a rule changes.
+- Requirements: Node.js (run `npm install` once in `tools/`), Python 3 with fontTools and Pillow, LibreOffice (`soffice`), poppler-utils (`pdftotext`, `pdffonts`), Poppins installed (`fc-match` must find it).
 
 ## Tags
 

@@ -1,0 +1,8 @@
+{
+  "name": "curvit-tools",
+  "private": true,
+  "description": "CV generator for the curvit project (see tools/README.md)",
+  "dependencies": {
+    "docx": "9.9.0"
+  }
+}
