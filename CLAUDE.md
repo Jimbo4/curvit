@@ -24,8 +24,12 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 - Training/instructor activities are NOT a separate section: they live as bullets inside the experience where they happened.
 - There is no Inbox section: Jacopo requests changes directly via chat.
 - Each experience has: metadata and "Available bullets:" (tagged).
+- Entries are self-contained: a bullet never mentions another entry (employer, role or project), unless it explains a change of employer such as an acquisition. The Summary never links two entries.
+- Personal projects have two shapes: a one-liner (title, year or period, tags) or a full entry shaped like an experience (metadata and "Available bullets:"). A full entry uses the title "Name - Short descriptor", a period without duration and a one-line description, always shown in generated CVs.
+- Matcha always lives in Personal projects, never in Experience, so employers do not read it as a full-time job.
 - Skills and tools are NOT repeated inside experiences, education or projects: they all live in the single "Main Tools / Skills (full pool)" section of the master, grouped by tag.
 - ATS keywords: the generated CV always includes the FULL skills pool from the master, every tool and skill in every group, never a subset. Automatic ATS screeners match on keywords, so no keyword may be dropped to save space: recover space by shortening bullets or spacing, never by cutting skills. Only the order of the groups changes, with the ones relevant to the target role first. The more keywords the better: when a new relevant tool or skill emerges, add it to the master pool.
+- Exception to the full-pool rule: the [marketing] group is optional. Include it, in full, only for roles that need marketing skills.
 
 ## Generation rules (layout and style)
 
@@ -36,7 +40,7 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 - Lead-in labels (in Summary paragraphs and Skills groups) are followed by a colon, e.g. "Leadership & Delivery: ...", never by `·` or other separators.
 - Duration goes in parentheses right after the period, e.g. "03/2026 – present (ongoing) | Milan, Italy" or "03/2024 – 12/2025 (2 years) | Milan, Italy".
 - Education metadata order: period | location | grade (grade last).
-- Contacts: stacked vertically, one per line, LinkedIn first (LinkedIn, email, phone, location). Email and LinkedIn are clickable but visually discreet: body colour, no underline.
+- Contacts: stacked vertically, one per line, in this order: LinkedIn, GitHub, email, phone, location. LinkedIn, GitHub and email are clickable but visually discreet: body colour, no underline.
 - Never use the em dash. Use commas, brackets, colons or semicolons depending on the context; a line break or formatting can also replace it.
 - Never use two or more consecutive spaces (spacebar whitespace): spacing between words is always a single space, as per standard Word writing rules. Visual separation is obtained with tabs, indents or spacing properties, not repeated spaces.
 - Fonts: set weights through the bold property of a base family (e.g. font "Poppins" + bold), never through a weight-named family such as "Poppins Bold", unless that exact family is embedded in the .docx. Otherwise the PDF export falls back to a substitute font (e.g. DejaVu Serif). After exporting, check the fonts embedded in the PDF.
@@ -58,7 +62,7 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 
 ## Tags
 
-- Claude chooses the tags autonomously, based on what fits best. Current pool: design, dev, pm, leadership, b2b, training, ai-training, presales, research, soft, safety. New tags can be added when needed.
+- Claude chooses the tags autonomously, based on what fits best. Current pool: design, dev, pm, leadership, b2b, training, ai-training, presales, research, soft, safety, marketing. New tags can be added when needed.
 
 ## When editing the master
 

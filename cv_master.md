@@ -8,9 +8,10 @@
 
 - name: Jacopo Marcolini
 - main title: Product Design Lead
-- secondary titles: Team Leader | Project Manager | AI Business Developer | Generative AI Instructor | Co-founder & CXO | Fullstack Developer
+- secondary titles: Team Leader | Project Manager | AI Business Developer | Generative AI Instructor | Co-founder | Fullstack Developer
 - email: jacopomma@gmail.com
 - linkedin: linkedin.com/in/jacopo-marcolini
+- github: github.com/Jimbo4
 - phone: +393458591948
 - location: Milan, Italy
 
@@ -21,30 +22,9 @@ Available bullets:
 - [leadership, pm] I've managed a team of 10 people, acting as team leader and project manager for high profile projects with prominent clients such as Mastercard, Leonardo s.p.a. and BPER. I am responsible for setting design standards, ensuring quality from concept to launch and aligning user experience with business goals.
 - [training, ai-training] I have delivered over 400 hours of training to more than 600 people on generative AI, design and communication, in groups ranging from 5 to 80 participants.
 - [soft] I'm a result oriented person, I have a proactive and collaborative nature with a quick understanding of complex situations.
-- [leadership, design] I co-founded a startup, where I lead user experience, product design and communication as CXO.
+- [leadership, design, marketing] I co-founded Matcha, a dating app I develop as a personal project, leading product, design and marketing.
 
 ## Experience
-
-### Chief Experience Officer (CXO) & Cofounder - Matcha
-
-- period: 03/2026 – present
-- duration: ongoing
-- location: Milan, Italy
-- website: matchadating.it
-
-Available bullets:
-
-- [leadership, design] Co-founded Matcha, a startup dating app with an integrated payment system for the first date, designed to turn matches into real-life meetings.
-- [design, leadership] As CXO I own the end-to-end user experience: product design choices, visual identity, graphics and communication.
-- [design] I define the product's design direction from concept to prototype, aligning user experience with brand and business goals.
-- [design, ai-training] I built the app's user flow through an AI-enhanced workflow, using generative AI tools to speed up ideation, iteration and validation of the flow.
-- [pm, design] I framed the core problem, matches that never turn into real meetings, and designed the product by subtraction: no in-app messaging, a pre-booked first date instead.
-- [pm, b2b] I set up the two-sided model, users and partner venues, defining how supply-side constraints shape the user flow.
-- [pm, b2b, design] I designed the in-app payments flow for the first date, from booking to payment confirmation, integrating it into the core user journey.
-- [pm, research] I work on funnel optimization, from match to booked and attended date, using A/B testing to compare flow variants and improve conversion.
-- [pm, design] I validated the flow through iterated prototypes, shortening the cycle from hypothesis to feedback.
-- [pm] I turned regulatory constraints (GDPR, Italian consumer law, payment for the first date) into product requirements.
-- [pm] I defined the product's north star metrics before launch: share of matches that become booked dates, and share of booked dates actually attended.
 
 ### AI Business Developer - DGS
 
@@ -147,6 +127,23 @@ Available bullets:
 
 ## Personal projects
 
+### Matcha - Dating app
+
+- period: 03/2026 – present
+- role: Co-founder, CXO, CMO
+- location: Milan, Italy
+- website: matchadating.it
+- description: Dating app with verified profiles that turns every match into a pre-booked drink at a partner venue in Milan.
+
+Available bullets:
+
+- [pm, design] I designed the core flow, from match to a first date paid in-app, with chat opening 2 hours before the meeting.
+- [pm, research] I turned GDPR and consumer law constraints into requirements, defined the north star metrics and test flow variants to improve conversion.
+- [design, leadership] I own the user experience and visual identity, from naming and branding to store assets.
+- [b2b, presales] With the CEO, I built the partner venue network through field sales and an AI-assisted CRM: 10 venues to date.
+- [marketing] I lead B2C marketing for a 25-40 audience, with a focus on women and the LGBT+ community.
+- [marketing, ai-training, dev] I created the repositories of an AI-assisted content pipeline and use it to produce the social content and the launch trailer.
+
 ### Interactive data visualizations and statistical analysis about diversity in fictional characters across popular media
 
 - year: 2020
@@ -169,14 +166,15 @@ Available bullets:
 
 ## Main Tools / Skills (full pool)
 
-- [design] Figma, Adobe Photoshop, Adobe XD, InVision, Human Computer Interaction (HCI), User Centered Design, Design Thinking, UX Research, Prototyping, Wireframing, Usability Testing, Information Architecture, Card Sorting, User Interviews, Brand Identity, Communication Design, d20 System
+- [design] Figma, Adobe Photoshop, Adobe XD, InVision, Human Computer Interaction (HCI), User Centered Design, Design Thinking, UX Research, Prototyping, Wireframing, Usability Testing, Information Architecture, Card Sorting, User Interviews, Brand Identity, Communication Design, Mobile App Design, Design Systems, Design Tokens, Typography, Logo Design, Print Design, d20 System
 - [dev] React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, HTML, CSS, REST APIs, Node.js, Express, MERN Stack, MongoDB, SQL, PostgreSQL, AWS, Vercel, Git, Github, Github Actions, Gitlab, Wordpress, Python, Java, C#, Unity, MATLAB, LaTeX, Software Design
-- [research] Tableau, Power BI, Google Analytics, Excel, Pytorch, Machine Learning, Computer Vision, Image Recognition, A/B Testing
-- [pm] Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Budgeting, Change Management, Pricing & Effort Estimation, Stakeholder Management, Product Management, Roadmapping
-- [presales, b2b] Product Strategy, Go-to-Market, Entrepreneurship, Solution Design, Technical Presales, Business Development, Negotiation, Payments, Funnel Optimization
-- [ai-training] Generative AI workflows & agents (Claude Cowork, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), LLMs, MCP, Prompt Engineering, AI Agents, Workflow Automation
+- [research] Tableau, Power BI, Google Analytics, Excel, Pytorch, Machine Learning, Computer Vision, Image Recognition, Image Processing, A/B Testing, Data Cleaning & Enrichment
+- [pm] Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Budgeting, Change Management, Pricing & Effort Estimation, Stakeholder Management, Product Management, Roadmapping, North Star Metric, GDPR, Google Workspace (Docs, Sheets, Drive)
+- [presales, b2b] Product Strategy, Go-to-Market, Entrepreneurship, Solution Design, Technical Presales, Business Development, Negotiation, Payments, Funnel Optimization, Partnership Development, Field Sales, B2B Sales, Sales Pipeline Management, CRM, Lead Generation, Two-sided Marketplace
+- [ai-training] Generative AI workflows & agents (Claude Cowork, Claude Code, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), LLMs, MCP, Prompt Engineering, AI Agents, Workflow Automation, AI Computer Use, Text-to-Speech (Gemini TTS), Browser Automation, AI Content Pipelines, Context Engineering
 - [leadership] Coaching, Mentoring, Hiring & Interviewing, Team Scaling, Conflict Management, Leadership (Multidisciplinary Teams), Corporate Communication
 - [training] Training & Workshops, Reskilling & Upskilling, Digital Course Design, Workshop Facilitation, Public Speaking, Mural, PowerPoint
+- [marketing] Digital Marketing, B2C Marketing, Growth Marketing, User Acquisition, Social Media Marketing, Instagram, Content Strategy, Content Creation, Editorial Planning, Copywriting (Italian, English), Brand Positioning, Brand Naming, Audience Segmentation, Art Direction, Scriptwriting, Video Production, Motion Design, Audio Editing & Mixing, Content Licensing
 
 ## Languages
 
