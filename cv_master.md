@@ -7,8 +7,8 @@
 ## Personal details
 
 - name: Jacopo Marcolini
-- main title: Product Design Lead
-- secondary titles: Team Leader | Project Manager | AI Business Developer | Generative AI Instructor | Co-founder | Fullstack Developer
+- main title: Deployment Strategist
+- secondary titles: Product Design Lead | Team Leader | Project Manager | AI Business Developer | Generative AI Instructor | Co-founder | Fullstack Developer
 - linkedin: linkedin.com/in/jacopo-marcolini
 - github: github.com/Jimbo4
 - email: jacopomma@gmail.com
