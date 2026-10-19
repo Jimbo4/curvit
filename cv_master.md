@@ -154,14 +154,14 @@ Available bullets:
 ## Main Tools / Skills (full pool)
 
 - [design] Figma, Adobe Photoshop, Adobe XD, InVision, UX Research, User Centered Design, Human Computer Interaction (HCI), Design Thinking, User Interviews, Card Sorting, Usability Testing, Information Architecture, Wireframing, Prototyping, Mobile App Design, Design Systems, Brand Identity, Communication Design, Logo Design, d20 System
-- [dev] React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, HTML, CSS, REST APIs, Node.js, Express, MERN Stack, MongoDB, SQL, PostgreSQL, AWS, Vercel, Git, Github, Github Actions, Gitlab, Wordpress, Python, Java, C#, Unity, MATLAB, LaTeX, Software Design
+- [dev] React, Angular, Flutter, Typescript, Javascript, NestJS, PHP, Tailwind CSS, SASS, HTML, CSS, REST APIs, SendGrid, Node.js, Express, MERN Stack, MongoDB, SQL, PostgreSQL, AWS, Vercel, Git, Github, Github Actions, Gitlab, Wordpress, Python, Java, C#, Unity, MATLAB, LaTeX, Software Design
 - [research] Tableau, Power BI, Google Analytics, Excel, Pytorch, Machine Learning, Computer Vision, Image Recognition, Image Processing, A/B Testing, Data Cleaning & Enrichment
 - [pm] Agile, Scrum, Waterfall, Confluence, Jira, Notion, Trello, Budgeting, Change Management, Pricing & Effort Estimation, Stakeholder Management, Product Management, Roadmapping, North Star Metric, GDPR, Google Workspace (Docs, Sheets, Drive)
 - [presales, b2b] Product Strategy, Go-to-Market, Entrepreneurship, Solution Design, Technical Presales, Business Development, Negotiation, Payments, Funnel Optimization, Partnership Development, Field Sales, B2B Sales, Sales Pipeline Management, CRM, Lead Generation, Two-sided Marketplace
-- [ai-training] Generative AI workflows & agents (Claude Cowork, Claude Code, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), LLMs, MCP, Prompt Engineering, AI Agents, Context Engineering, Workflow Automation, Text-to-Speech (Gemini TTS), AI Content Pipelines
+- [ai-training] Generative AI workflows & agents (Claude Cowork, Claude Code, n8n, Gamma, ChatGPT, Gemini, Microsoft Copilot, GitHub Copilot, Lovable, Figma Make), Generative image & video (Midjourney, Runway, Kling), LLMs, MCP, Prompt Engineering, AI Agents, Context Engineering, Workflow Automation, Text-to-Speech (Gemini TTS), AI Content Pipelines
 - [leadership] Coaching, Mentoring, Hiring & Interviewing, Team Scaling, Conflict Management, Leadership (Multidisciplinary Teams), Corporate Communication
 - [training] Training & Workshops, Reskilling & Upskilling, Digital Course Design, Workshop Facilitation, Public Speaking, Mural, PowerPoint
-- [marketing] Digital Marketing, B2C Marketing, Growth Marketing, User Acquisition, Social Media Marketing, Instagram, Content Strategy, Content Creation, Editorial Planning, Copywriting (Italian, English), Brand Positioning, Brand Naming, Audience Segmentation, Art Direction, Scriptwriting, Video Production, Motion Design, Audio Editing & Mixing, Content Licensing
+- [marketing] Digital Marketing, B2C Marketing, Growth Marketing, Paid Advertising (Meta Ads, Google Ads), Email Marketing (Mailchimp), User Acquisition, Social Media Marketing, Instagram, Content Strategy, Content Creation, Content Licensing, Editorial Planning, Copywriting (Italian, English), Brand Positioning, Brand Naming, Audience Segmentation, Art Direction, Scriptwriting, Video Production, Motion Design, Audio Editing & Mixing
 
 ## Certifications
 

@@ -16,7 +16,7 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 ## Structure rules
 
 - Section order in every generated CV is fixed: Summary, Experience, Education, Publications, Personal projects, Skills, Certifications, Languages.
-- Certifications: professional or mandatory certifications. Each has date, standard/reference and tags. Include them in a generated CV only when relevant to the target role.
+- Certifications: professional or mandatory certifications. Each has date, standard/reference and tags. Always include all of them in every generated CV, whatever the target role.
 - Right after the Languages section, always add the availability lines (see the "Availability" section of the master).
 - Experiences are listed in reverse chronological order: the most recent is always first.
 - Experience titles are always in the form "Role - Company".
@@ -34,7 +34,7 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 
 ## Generation rules (layout and style)
 
-- The main title in the master is a fallback. In a generated CV, replace it with the title of the target role or job posting, and reorder the secondary titles so the ones relevant to that role come first.
+- The main title in the master is a fallback. In a generated CV, never copy the job posting title verbatim: pick the best-fitting title among the master's main and secondary titles and adapt it slightly to the target role (e.g. "Senior Product Designer", "Product Lead"). Then reorder the secondary titles so the ones relevant to that role come first.
 - Voice: in the generated CV use an impersonal style (no "I ..."), even though the master pool is written in first person. Rewrite the bullets accordingly.
 - Client names: always frame them as examples, with wording like "clients such as ..." or "including ...", never as an exhaustive list.
 - Separators: use `|` as the inline separator for lists (contacts metadata, experience metadata, languages), never `•`. Between role and company (and between publication venue and DOI) use `-`, e.g. "AI Business Developer - DGS".
@@ -63,17 +63,18 @@ Content lives in `cv_master.md`; rules live here. Keep the two in sync: if a rul
 ## Output rules
 
 - By default, create every generated file (CVs, drafts, exports) inside the project's `./output` folder. That folder is git-ignored.
-- File naming: date prefix at the start of the filename, format `YYYYMMDD_`, followed by `cv_jacopo_marcolini_` and the target position in lowercase snake_case, to tell outputs apart (e.g. `20260810_cv_jacopo_marcolini_product_lead.docx`).
-- Never overwrite an existing output file: if a file with the same name already exists for the same day, add the time (`YYYYMMDD_HHmm_`) to disambiguate.
+- Each CV has its own subfolder in `./output`, named after the CV base name followed by the target company in lowercase snake_case, when there is one (e.g. `output/20260810_cv_jacopo_marcolini_product_lead_satispay/`). The folder holds all the files of that CV: `.json` spec, `.docx`, `.pdf` and any related file such as a cover letter, all named without the company (e.g. `20260810_cv_jacopo_marcolini_product_lead.pdf`). No CV file sits loose in `./output`.
+- File naming: date prefix at the start of the filename, format `YYYYMMDD_`, followed by `cv_jacopo_marcolini_` and the target position in lowercase snake_case, to tell outputs apart (e.g. `20260810_cv_jacopo_marcolini_product_lead.docx`). The target company never appears in file names: it goes only in the CV folder name.
+- Never overwrite an existing output file: if a CV folder with the same name already exists for the same day, add the time (`YYYYMMDD_HHmm_`) to both the folder and the file names to disambiguate.
 - Alongside every generated `.docx`, also export the matching `.pdf` with the same base name.
-- The JSON spec of each generated CV stays in `./output` next to its `.docx` and `.pdf` (same base name): it is the source to regenerate or tweak that CV, not a temporary file.
+- The JSON spec of each generated CV stays in its CV folder next to its `.docx` and `.pdf` (same base name): it is the source to regenerate or tweak that CV, not a temporary file.
 - Temporary files created as intermediate steps (previews, conversion leftovers such as `.tmp` files) must be deleted once the final output is ready. Jacopo has given permission for this cleanup.
 
 ## Generation script
 
 - Generate every CV with `tools/build_cv.py`, to keep layout rules consistent and save tokens: Claude writes only the content spec, the script does the rest.
-- Usage: `python3 tools/build_cv.py output/<base_name>.json [--overwrite]`. The script builds the `.docx` (via `tools/build_docx.js`), embeds Poppins Regular and Bold, colours the icons, exports the `.pdf` with LibreOffice and prints a report: fonts embedded in the PDF, pages, em dashes, double spaces, possible orphans, contact lines as an ATS reads them. It refuses to overwrite existing files without `--overwrite`.
-- The spec is a JSON file: base name, colours, header (name, title, subtitle, links, contacts) and an ordered list of sections. Use the latest spec in `./output` as the template for a new one. Section types: `paragraphs` (labelled paragraphs: Summary, Skills), `entries` (experience, education, publications, projects, certifications: title, org, meta, subtitle, lines, bullets, optional `titleSize` and a trailing `list` of one-liners), `lines` (Languages and availability). Rich text is a string or a list of segments `{text, style: primary|secondary|bold, url}`.
+- Usage: `python3 tools/build_cv.py output/<base_name>_<company>/<base_name>.json [--overwrite]`: create the CV folder and write the spec there first; the outputs are written next to the spec. The script builds the `.docx` (via `tools/build_docx.js`), embeds Poppins Regular and Bold, colours the icons, exports the `.pdf` with LibreOffice and prints a report: fonts embedded in the PDF, pages, em dashes, double spaces, possible orphans, contact lines as an ATS reads them. It refuses to overwrite existing files without `--overwrite`.
+- The spec is a JSON file: base name, colours, header (name, title, subtitle, links, contacts) and an ordered list of sections. Use the latest spec in `./output` (inside its CV folder) as the template for a new one. Section types: `paragraphs` (labelled paragraphs: Summary, Skills), `entries` (experience, education, publications, projects, certifications: title, org, meta, subtitle, lines, bullets, optional `titleSize` and a trailing `list` of one-liners), `lines` (Languages and availability). Rich text is a string or a list of segments `{text, style: primary|secondary|bold, url}`.
 - Layout constants (fonts, sizes, spacing, margins, keep-together rules) live in the script: change them there, not in the spec, and update this file if a rule changes.
 - Requirements: Node.js (run `npm install` once in `tools/`), Python 3 with fontTools and Pillow, LibreOffice (`soffice`), poppler-utils (`pdftotext`, `pdffonts`), Poppins installed (`fc-match` must find it).
 
